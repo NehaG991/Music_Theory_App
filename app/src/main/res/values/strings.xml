@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Music Theory App</string>
+    <string name="instructions">Select an Exercise to Practice</string>
+    <string name="note_identification">Note Identification</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="idGameInstructions">Click the Right Note Displayed</string>
+    <string name="noteIdImageViewContentDescription">Image View for music Notes</string>
+    <string name="contentDescription">Image view for Notes</string>
+    <string name="cButton">C</string>
+    <string name="dButton">D</string>
+    <string name="eButton">E</string>
+    <string name="f">f</string>
+    <string name="g">G</string>
+    <string name="aButton">A</string>
+    <string name="bButton">B</string>
+    <string name="cSharpButton">C#</string>
+    <string name="dSharpButton">D#</string>
+    <string name="fSharpButton">F#</string>
+    <string name="gSharpButton">G#</string>
+    <string name="aSharpButton">A#</string>
+    <string name="dFlatButton">D♭</string>
+    <string name="eFlatButton">E♭</string>
+    <string name="gFlatButton">G♭</string>
+    <string name="aFlatButton">A♭</string>
+    <string name="bFlatButton">B♭</string>
+    <string name="answerBoxText" />
+    <string name="skipButton">Skip</string>
+</resources>

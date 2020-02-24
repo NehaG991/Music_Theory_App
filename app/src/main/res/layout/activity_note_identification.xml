@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NoteIdentification"
+    tools:ignore="ExtraText">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/noteImageView"
+        android:layout_width="148dp"
+        android:layout_height="170dp"
+        android:layout_marginStart="131dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="132dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/line_c"
+        android:contentDescription="@string/contentDescription" />
+
+    // c button
+    <Button
+        android:id="@+id/cButton"
+        android:layout_width="69dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="280dp"
+        android:text="@string/cButton"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    // d button
+    <Button
+        android:id="@+id/dButton"
+        android:layout_width="69dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="280dp"
+        android:text="@string/dButton"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/cButton" />
+
+    // e button
+    <Button
+        android:id="@+id/eButton"
+        android:layout_width="69dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="280dp"
+        android:text="@string/eButton"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/dButton" />
+
+    // f button
+
+    <Button
+        android:id="@+id/fButton"
+        android:layout_width="69dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="280dp"
+        android:text="@string/f"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/eButton" />
+
+    // g button
+
+    <Button
+        android:id="@+id/gButton"
+        android:layout_width="69dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="280dp"
+        android:text="@string/g"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/fButton" />
+
+    // a button
+
+    <Button
+        android:id="@+id/aButton"
+        android:layout_width="69dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/aButton"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cButton" />
+
+    // b button
+    <Button
+        android:id="@+id/bButton"
+        android:layout_width="69dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/bButton"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/aButton"
+        app:layout_constraintTop_toBottomOf="@+id/dButton" />
+
+    // c# button
+
+    <Button
+        android:id="@+id/cSharpButton"
+        android:layout_width="69dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/cSharpButton"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/bButton"
+        app:layout_constraintTop_toBottomOf="@+id/eButton" />
+
+    // d# button
+    <Button
+        android:id="@+id/dSharpButton"
+        android:layout_width="69dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/dSharpButton"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/cSharpButton"
+        app:layout_constraintTop_toBottomOf="@+id/fButton" />
+
+    // f# button
+    <Button
+        android:id="@+id/fSharpButton"
+        android:layout_width="69dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/fSharpButton"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/dSharpButton"
+        app:layout_constraintTop_toBottomOf="@+id/gButton" />
+
+    // g# button
+    <Button
+        android:id="@+id/gSharpButton"
+        android:layout_width="69dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/gSharpButton"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aButton" />
+
+    // A# button
+    <Button
+        android:id="@+id/aSharpButton"
+        android:layout_width="69dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/aSharpButton"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/gSharpButton"
+        app:layout_constraintTop_toBottomOf="@+id/bButton" />
+
+    // d Flat Button
+    <Button
+        android:id="@+id/dFlatButton"
+        android:layout_width="69dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/dFlatButton"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/aSharpButton"
+        app:layout_constraintTop_toBottomOf="@+id/cSharpButton" />
+
+    // e flat button
+    <Button
+        android:id="@+id/eFlatButton"
+        android:layout_width="69dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/eFlatButton"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/dFlatButton"
+        app:layout_constraintTop_toBottomOf="@+id/dSharpButton" />
+
+    // g flat button
+    <Button
+        android:id="@+id/gFlatButton"
+        android:layout_width="69dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/gFlatButton"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/eFlatButton"
+        app:layout_constraintTop_toBottomOf="@+id/fSharpButton" />
+
+    // a flat button
+    <Button
+        android:id="@+id/aFlatButton"
+        android:layout_width="69dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="89dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/aFlatButton"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aSharpButton" />
+
+    // b flat button
+    <Button
+        android:id="@+id/bFlatButton"
+        android:layout_width="69dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="89dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/bFlatButton"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/aFlatButton"
+        app:layout_constraintTop_toBottomOf="@+id/eFlatButton" />
+
+    // wrong or right answer text view
+    <TextView
+        android:id="@+id/answerBox"
+        android:layout_width="155dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="133dp"
+        android:layout_marginEnd="132dp"
+        android:layout_marginBottom="27dp"
+        android:gravity="center"
+        android:text="@string/answerBoxText"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/skipButton"
+        android:layout_width="69dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/skipButton"
+        app:layout_constraintStart_toEndOf="@+id/aFlatButton"
+        app:layout_constraintTop_toBottomOf="@+id/dFlatButton" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
